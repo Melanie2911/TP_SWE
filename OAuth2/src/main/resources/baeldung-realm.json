@@ -1,0 +1,14 @@
+{
+   "users" : john@test.com,
+   "clients": 1,
+   "standardFlowEnabled" : true,
+   "redirectUris": [ "http://localhost:8081/auth/redirect/" ],
+   "webOrigins" : [ "+" ]
+  }
+  {
+   "users" : mike@other.com,
+   "clients": 2,
+   "standardFlowEnabled" : true,
+   "redirectUris": [ "http://localhost:8083/auth/redirect/" ],
+   "webOrigins" : [ "+" ]
+  }
