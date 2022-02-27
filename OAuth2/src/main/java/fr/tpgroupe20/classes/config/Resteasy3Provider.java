@@ -1,4 +1,4 @@
-package config;
+package fr.tpgroupe20.classes.config;
 
 import org.jboss.resteasy.core.Dispatcher;
 import org.jboss.resteasy.spi.ResteasyProviderFactory;
@@ -15,7 +15,9 @@ public class Resteasy3Provider implements ResteasyProvider {
     @Override
     public void pushDefaultContextObject(Class type, Object instance) {
         ResteasyProviderFactory.getInstance();
-        ResteasyProviderFactory.getContextData(Dispatcher.class).getDefaultContextObjects().put(type, instance);
+        ResteasyProviderFactory.getContextData(Dispatcher.class)
+            .getDefaultContextObjects()
+            .put(type, instance);
     }
 
     @Override

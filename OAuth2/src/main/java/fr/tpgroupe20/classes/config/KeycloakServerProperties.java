@@ -1,4 +1,4 @@
-package config;
+package fr.tpgroupe20.classes.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

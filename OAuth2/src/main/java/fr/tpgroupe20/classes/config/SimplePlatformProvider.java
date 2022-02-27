@@ -1,4 +1,4 @@
-package config;
+package fr.tpgroupe20.classes.config;
 
 import org.keycloak.platform.PlatformProvider;
 import org.keycloak.services.ServicesLogger;
@@ -29,6 +29,7 @@ public class SimplePlatformProvider implements PlatformProvider {
     public File getTmpDirectory() {
         return null;
     }
+
 
     private void exit(int status) {
         new Thread() {
